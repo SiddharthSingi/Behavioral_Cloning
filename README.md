@@ -129,9 +129,14 @@ To capture good driving behavior, I first recorded two laps on track one using c
 I then recorded the vehicle recovering from the left side and right sides of the road back to center so that the vehicle would learn to .... These images show what a recovery looks like starting from ... :
 
 ![center_2017_06_21_03_26_34_295](https://user-images.githubusercontent.com/26694585/27359793-54727bde-563b-11e7-9735-8facc0e4d382.jpg)
-![center_2017_06_21_03_26_35_126](https://user-images.githubusercontent.com/26694585/27359797-56ce188e-563b-11e7-8c19-e7f1e51772cf.jpg)
-![center_2017_06_21_03_26_36_899](https://user-images.githubusercontent.com/26694585/27359803-5f1646ec-563b-11e7-9cec-6cbfec3c33d7.jpg)
+The above image takes a hard right turn.
 
+![center_2017_06_21_03_26_35_126](https://user-images.githubusercontent.com/26694585/27359797-56ce188e-563b-11e7-8c19-e7f1e51772cf.jpg)
+The above image takes a softer right turn.
+
+
+![center_2017_06_21_03_26_36_899](https://user-images.githubusercontent.com/26694585/27359803-5f1646ec-563b-11e7-9cec-6cbfec3c33d7.jpg)
+The above image is now back to the centre of the road.
 
 
 After the collection process, I had 13396 number of data points.
@@ -139,6 +144,14 @@ After the collection process, I had 13396 number of data points.
 I finally randomly shuffled the data set and put 20% of the data into a validation set. 
 
 I used this training data for training the model. The validation set helped determine if the model was over or under fitting. The ideal number of epochs was 3 as evidenced by by the model.ipynb output. I used an adam optimizer so that manually training the learning rate wasn't necessary.
+
+Here are some more example images along with their steering angles in the training set:
+![center_2016_12_01_13_31_13_177](https://user-images.githubusercontent.com/26694585/27360833-2121c36a-5641-11e7-8043-6a4c56cf4df6.jpg)
+steering angle=0
+
+![left_2016_12_01_13_39_02_412](https://user-images.githubusercontent.com/26694585/27360894-8ae109f0-5641-11e7-9174-d5508419374d.jpg)
+steering angle = 0.15745
+
 
 
 ## Conclusion
