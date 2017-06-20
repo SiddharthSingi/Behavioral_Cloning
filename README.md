@@ -1,7 +1,7 @@
 # Behavioral_Cloning
 
 
-**In this project I have used the car simulator provided in this link to drive on the given track and collect data from the simulator. This includes images taken from the top of the car and steering angle while I am driving. I have then used deep learning on keras to develop a network that learns from my driving to predict the steering angles itself. The car simulator then runs in autonomous mode and predicts the steering angles at each point to drive itself on the track. ** 
+**In this project I have used the car simulator provided in this link ([https://github.com/udacity/self-driving-car-sim](url))to drive on the given track and collect data from the simulator. This includes images taken from the top of the car and steering angle while I am driving. I have then used deep learning on keras to develop a network that learns from my driving to predict the steering angles itself. The car simulator then runs in autonomous mode and predicts the steering angles at each point to drive itself on the track. ** 
 
 ---
 
