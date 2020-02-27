@@ -156,7 +156,7 @@ steering angle = 0.15745
 
 ## Conclusion
 
-This project taught me how to use deep learning for regression of steering angles. It was a lot of fun training the data myself and then looking at the model slowly learn how to drive. I now have a better understanding on how self driving cars learn in real life.
+This project taught me how to use deep learning for regression of steering angles. It was a lot of fun training the data myself and then looking at the model slowly learn how to drive. I now have a better understanding on how self driving cars learn in real life. I have uploaded the results of this project on [YouTube](https://www.youtube.com/watch?v=pHn68HZGoEU)
 
 #### Improvements
 To improve the model more data augmentation techniques could be implemented like changing properties of the images like brightness, lighing conditions, visibility etc. It will also be very helpful to use the other track along with the speed element to train the model to be more flexible to unseen driving conditions.
